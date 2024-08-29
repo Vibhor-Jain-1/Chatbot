@@ -1,0 +1,149 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "Hello",
+                "hey",
+                "hi",
+                "what's up?",
+                "Greetings",
+                "good day"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can i do for you?",
+                "Hi!"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "see you later",
+                "Have a good day",
+                "Good bye",
+                "I am leaving",
+                "Bye",
+                "see yaa"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Talk to you later",
+                "Good Bye!"
+            ]
+        },
+        {
+            "tag": "age",
+            "patterns": [
+                "How old",
+                "What is your age",
+                "How old are you",
+                "age?"
+            ],
+            "responses": [
+                "I am 21 years old",
+                "21 years !"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "What is your name",
+                "What should i call you",
+                "What's your name?",
+                "Who are you?",
+                "Can you tell me your name"
+            ],
+            "responses": [
+                "You can call me nueral",
+                "I am nueral"
+            ]
+        },
+        {
+            "tag": "Hours",
+            "patterns": [
+                "When are you guys open",
+                "What are your hours",
+                "What is your working time"
+            ],
+            "responses": [
+                "I am available 24x7"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "thanks for chatting with me"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Glad I could help!"
+            ]
+        },
+        {
+            "tag": "how_are_you",
+            "patterns": [
+                "how are you",
+                "how's it going",
+                "how have you been"
+            ],
+            "responses": [
+                "I'm doing well, thank you for asking!",
+                "I'm great, how about you?",
+                "I'm just a machine, but I'm always here to help you!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like today?", "Will it rain today?", "How hot is it outside?"],
+            "responses": ["https://www.accuweather.com/en/in/india-weather"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Can you help me?", "I need assistance", "What can you do for me?"],
+            "responses": ["Of course! How can I assist you?", "Sure, I'm here to help. What do you need?"]
+        },
+        {
+            "tag": "restaurant_recommendation",
+            "patterns": ["Can you recommend a good restaurant?", "Where should I go for dinner?","can you recommend me a good restaurant","restaurant near me?"],
+            "responses": ["https://www.tripadvisor.in/Restaurants"]
+        },
+        {
+            "tag": "booking",
+            "patterns": ["Can you book a table for me?", "I want to make a reservation"],
+            "responses": ["Sure, how many people will be joining you?", "What date and time would you like to book the table for?"]
+        }, 
+        {
+            "tag": "product_inquiry",
+            "patterns": ["What products do you sell?", "Can you tell me more about your products?"],
+            "responses": ["We offer a wide range of products, including electronics, clothing, and home goods.", "Our products are of high quality and competitively priced."]
+        },
+        {
+            "tag": "order_status",
+            "patterns": ["Can you check the status of my order?", "Where is my package?"],
+            "responses": ["Sure, please provide your order number and we'll check on the status for you.", "Let me look that up for you. What's your order number?"]
+        },
+        {
+            "tag": "complaint",
+            "patterns": ["I have a complaint", "Your service is terrible"],
+            "responses": ["I'm sorry to hear that. Please provide more details so we can address the issue.", "We apologize for any inconvenience. Please tell us what went wrong."]
+        },
+        {
+            "tag": "sales",
+            "patterns": ["Do you have any promotions or discounts?", "Is there a sale going on?"],
+            "responses": ["Yes, we have several promotions and discounts available. Check our website for details.", "We're currently offering a 10% discount on all products. Use the code SAVE10 at checkout."]
+      },
+      {
+        "tag":"chatbot",
+        "patterns":["open ai","open chat gpt","advance ai","can you solve a problem?"],
+        "responses": ["https://chat.openai.com/"]
+      }      
+      
+      
+    ]
+}
